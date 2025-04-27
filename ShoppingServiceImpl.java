@@ -21,14 +21,15 @@ public class ShoppingServiceImpl implements ShoppingService {
     }
 
     @Override
-    public void addToCart(int productId) {
-        Product product = databaseService.getProductById(productId);
-        if (product != null) {
-            cart.addProduct(product);
-        } else {
-            System.out.println("Produk tidak ditemukan.");
-        }
+    public void addToCart(int productId, int quantity) {
+    Product product = databaseService.getProductById(productId);
+    if (product != null) {
+        cart.addProduct(product, quantity);
+    } else {
+        System.out.println("Produk tidak ditemukan.");
     }
+}
+
 
     @Override
     public void removeFromCart(int productId) {

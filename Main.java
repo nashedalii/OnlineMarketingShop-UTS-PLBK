@@ -29,8 +29,11 @@ public class Main {
                 case 3:
                     System.out.print("Masukkan ID produk: ");
                     int productId = scanner.nextInt();
-                    shoppingService.addToCart(productId);
+                    System.out.print("Masukkan jumlah produk yang ingin ditambahkan: ");
+                    int quantity = scanner.nextInt();
+                    shoppingService.addToCart(productId, quantity);
                     break;
+
                 case 4:
                     System.out.print("Masukkan ID produk yang akan dihapus: ");
                     int removeId = scanner.nextInt();
