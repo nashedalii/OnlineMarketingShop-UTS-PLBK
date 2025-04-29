@@ -5,7 +5,7 @@ public class DatabaseServiceImpl implements DatabaseService {
     private List<Product> products = new ArrayList<>();
 
     public DatabaseServiceImpl() {
-        products.add(new Product(1, "Laptop", 12000000));
+        products.add(new Product(1, "Laptop", 9000000));
         products.add(new Product(2, "Smartphone", 5000000));
         products.add(new Product(3, "Headset", 300000));
         products.add(new Product(4, "Mouse", 150000));
