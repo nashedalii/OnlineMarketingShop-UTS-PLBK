@@ -1,15 +1,9 @@
-
----
-
-### ✅ `.gitignore`
-
-```gitignore
 # Compiled class files
-*.class
+.class
 
 # IDE-specific files (for IntelliJ, VSCode, Eclipse, etc.)
 .idea/
-*.iml
+.iml
 .vscode/
 .classpath
 .project
@@ -19,4 +13,4 @@
 .DS_Store
 
 # PlantUML temporary files
-*.png
+.png
