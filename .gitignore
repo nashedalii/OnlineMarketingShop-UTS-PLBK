@@ -1,0 +1,22 @@
+
+---
+
+### ✅ `.gitignore`
+
+```gitignore
+# Compiled class files
+*.class
+
+# IDE-specific files (for IntelliJ, VSCode, Eclipse, etc.)
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+
+# Mac system files
+.DS_Store
+
+# PlantUML temporary files
+*.png
