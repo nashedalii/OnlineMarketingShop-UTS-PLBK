@@ -84,7 +84,7 @@ public class Main {
         System.out.println("=".repeat(50));
     }
 
-    // Fungsi bantu untuk menampilkan menu utama dalam bentuk tabel
+    // Fungsi bantu untuk menampilkan menu utama
     private static void printMenu() {
         System.out.println("|------------------------------------------------|");
         System.out.println("|                    MENU UTAMA                  |");
